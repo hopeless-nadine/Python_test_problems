@@ -1,0 +1,5 @@
+A  = float (input ())
+h = int (A // 30)
+m = int ((A % 30) // 0.5)
+s = int (((A % 30) % 0.5) / (0.5 / 60))
+print (h, m, s)
