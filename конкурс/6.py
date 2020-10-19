@@ -1,0 +1,5 @@
+N = int (input())
+A = input().split()
+k = max (A)
+s = A.count (k)
+print (k, " ", s)
